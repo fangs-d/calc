@@ -65,6 +65,26 @@ public void sqrt2()
 c=Math.sqrt(b);
 System.out.println("Square root of II number  ="+c);
 }
+public void cube1()
+{
+c=a*a*a;
+System.out.println("Cube of I number          ="+c);
+}
+public void cube2()
+{
+c=b*b*b;
+System.out.println("Cube of II number         ="+c);
+}
+public void inverse1()
+{
+c=1/a;
+System.out.println("Inverse of II number     ="+c);
+}
+public void inverse2()
+{
+c=1/b;
+System.out.println("Inverse of II number     ="+c);
+}
 public static void main(String args[])throws IOException
 {
 BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
@@ -80,7 +100,11 @@ System.out.println("Division(a/b)             ="+ob.div());
 ob.sqr1();
 ob.sqr2();
 ob.pwr();
+ob.cube1();
+ob.cube2();
 ob.sqrt1();
 ob.sqrt2();
+ob.inverse1();
+ob.inverse2():
 }
 }
